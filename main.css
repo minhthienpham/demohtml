@@ -1,0 +1,78 @@
+/* reset margin,padding*/
+body{
+margin: 0 !important;
+padding: 0 !important;
+}
+
+.red { 
+    border: 1px solid red;
+}
+.green{
+    border: 1px solid green;
+}
+.banner {
+    height: 100%;
+    background: url('./nen.jpg') center center no-repeat;
+    padding: 10px;
+}
+.about-sign-in{
+    height: 80px;
+    width: 100%;
+    text-align: right; /*chu ben phai*/
+}
+.about, .sign-in{ /*dinh dang 2 chu chung thuoc tinh*/
+    /* float: right; hien thi ben phai chu sing in */
+    text-decoration: none;/*bo dau gach chan*/
+    display: inline-block; 
+    margin-top: 40px; /*cach phia tren 40px*/
+    padding: 10; /*khung to ra them 10px*/
+    text-transform: uppercase;/*dinh dang chu in hoa*/
+}
+.sign-in{
+    margin-right: 80px;/*cach le phai 80px*/
+    margin-left: 50;/*cach le trai 50px*/
+    border: 1px solid green;/*khung vien*/
+    border-radius: 20px;/*bogoc tron cho khung*/
+}
+.logo{
+    background: url('./hapoERP.png') center center no-repeat;
+    margin-top: 100px;
+    height: 100px;
+
+}
+.text{
+    margin-top: 30px;
+    text-align: center;
+    
+}
+.button-start{
+    text-align: center;
+}
+
+.banner .button-start button{
+    text-transform: uppercase;
+    border: 1px solid green;/*khung vien*/
+    border-radius: 20px;/*bo goc tron cho khung*/
+    margin-top: 30px;
+    padding: 15; 
+    cursor: pointer;/*chuyen chuot thanh hinh ban tay*/
+    background-color: green;
+    color: white;
+   
+}
+
+.left, .center, .right{
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+} git config --global user.name 
+.text span{/*khai bao chinh sua noi dung cua the span trong the text*/
+    display: block; /*chuyen chu xuong duoi hinh anh*/
+    font-size: 25px;/*co chu cua tat ca the span*/
+}
+img{
+    width: 48px;
+    height: 52px;
+}
